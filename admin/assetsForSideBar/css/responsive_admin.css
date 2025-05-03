@@ -1,0 +1,54 @@
+@media (max-width: 1024px) {
+  .bgimg {
+    background-image: url("/cafe_management_system/admin/assetsForSideBar/img/bgpicture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .bgimg {
+    background-image: url("/cafe_management_system/admin/assetsForSideBar/img/bgpicture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100vw;
+  }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+  .showa {
+    left: 0 !important;
+  }
+  .nav_link {
+    font-size: 1rem;
+  }
+  .main-content {
+    padding: 1rem;
+  }
+  .header__toggle {
+    color: #5b4c3a;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .l-navbar {
+    left: -250px;
+    transition: 0.4s;
+    position: fixed;
+    z-index: 10000;
+    width: 250px;
+  }
+  .body-pd {
+    padding-left: 250px !important;
+  }
+}
